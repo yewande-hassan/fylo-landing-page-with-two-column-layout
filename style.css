@@ -1,0 +1,564 @@
+
+
+@media only screen and (max-width:1440px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body{
+    line-height: 1.5;
+    width: 100%;
+    max-height: 100%;
+    font-weight: 400;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+  } 
+
+.logo img{
+  width: 100%;
+  margin-right: 20rem;
+}
+a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+a:hover{
+  opacity: 0.6;
+}
+h1{
+  font-size: 2rem;
+  color: hsl(243, 87%, 12%);
+  width: 70%;
+  text-align: left;
+  padding: 0.5rem 0;
+  font-family: 'Raleway', sans-serif;
+}
+h2{
+  font-size: 2rem;
+  text-align: left;
+  padding: 0.5rem;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+h4{padding-top: 0.5rem;}
+input{
+  width: 80%;
+  border: black 1px solid;
+  padding: 1rem;
+  margin: 0.5rem 0rem;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+.btn{
+  width: 30%;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem;
+  border: hsl(224, 93%, 58%) 1px solid;
+  border-radius: 5px;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+}
+  header{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1rem;
+  }
+  #nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1rem;
+    padding: 0.5rem 0;
+  }
+  #nav-bar .nav-links {
+    margin-left: 40rem;
+    width: 100%;
+  }
+  #nav-bar .nav-links ul li{
+    display: inline-block;
+    padding-right: 4rem;
+    list-style: none;
+  }
+  main{
+    width: 100%;
+    height: 80%;
+  }
+  #Features{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 25%;
+    margin: 1rem;
+    align-items: center;
+    
+  }
+  #Features .Features-img img{
+    float: right;
+    width: 90%;
+    height: 25%;
+    top: 0;
+    right: 0;
+    margin: 0 1rem;
+  }
+  #Features .Features-content{
+    float: left;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 60%;
+    padding: 1rem;
+    height: 25%;
+  }
+  #Features .Features-content p{
+    width: 75%;
+    text-align: justify;
+    padding: 0.5rem;
+  }
+  #Team{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    padding-top: 5rem;
+    background: url(../images/bg-curve-desktop.svg)no-repeat center center/cover;
+  }
+  #Team .Team-image img{
+    width: 90%;
+    height: 25%;
+    margin: 0 1rem; 
+  }
+  #Team .Team-content{
+    text-align: center;
+    width: 70%;
+    padding: 2rem;
+    height: 25%;
+  }
+  #Team .Team-content p{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0.5rem;
+    width: 80%;
+  }
+  #Team .Team-content a{
+    text-align: center;
+    color: hsl(170, 45%, 43%);
+    width: 50%;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+ 
+  #Team .Team-content .testimonial{
+    display: flex;
+    flex-direction: column;
+    border: white 1px solid;
+    background-color: white;
+    width: 45%;
+    margin: 1rem;
+  }
+  #Team .Team-content .testimonial img{
+    width: 10%;
+    height: 5%;
+    padding: 0.5rem;
+  }
+  #Team .Team-content .testimonial p{
+    text-align: justify;
+    font-size: 0.9rem;
+    
+  }
+  #person{
+    display: flex;
+    width: 100%;
+    
+  }
+  #person img{
+    border-radius: 50%;
+    height: 15%;
+    width: 60%;
+  }
+  #person .Kyle{
+   display: flex;
+   flex-direction: column;
+   border: none 1px solid;
+   width: 100%;
+   text-align: left;
+   margin: 0.5rem;
+  }
+  #person .Kyle p{
+    font-size: 0.5rem;
+  }
+  #Sign-In{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    background-color: hsl(238, 22%, 44%);
+  }
+  #Sign-In .sign-in-info{
+    width: 35%;
+    margin: 1rem;
+  }
+  #Sign-In .sign-in-info p{
+    text-align: left;
+  }
+  #Sign-In .info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1rem;
+    margin-left: 15rem;
+  }
+  #contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92%;
+    height: 15%;
+    padding: 4rem;
+    padding-top: 2rem;
+    color: white;
+    background-color: hsl(243, 87%, 12%);
+  }
+
+  #contact .contact-info img{
+    color: white;
+    padding: 1rem 0;
+  }
+  #contact .contact-info .phone{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none 1px solid;
+    padding: 0.5rem 0;
+    padding-left: 1rem;
+  }
+  #contact .contact-info .phone img{
+    width: 5%;
+    padding-right: 1rem;
+  }
+  #contact .contact-info .email{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: none 1px solid;
+    padding-left: 1rem;
+   
+  }
+  #contact .contact-info .email img{
+    width: 5%;
+    padding-right: 1rem;
+  }
+  #contact .list{padding: 1rem 1rem;}
+  #contact .list ul li{
+    list-style: none;
+    padding: 1rem 0;
+  }
+  #contact .icons{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 3rem;
+  }
+  #contact .icons i{
+    padding-right: 3rem;
+  }
+  .attribution {
+     font-size: 11px;
+     text-align: center;
+     height: 30%;
+     padding: 1rem; 
+  }
+     
+  .attribution a {
+     color: hsl(228, 45%, 44%); }
+    }
+    @media only screen and (max-width:375px){
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body{
+        line-height: 1.5;
+        max-width: 100%;
+        max-height: 100%;
+        overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+      }
+     
+      a{
+        text-decoration: none;
+        font-size: 0.5rem;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+      }
+      a:hover{opacity:0.6;}
+      h1{
+      text-align: center;
+      color: hsl(243, 87%, 12%);
+      width: 100%;
+      height: 10%;
+      padding: 0.2rem 0;
+      font-size: 1.8rem;
+      font-family: 'Raleway', sans-serif;
+      }
+      h2{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0.5rem;
+         font-family: 'Raleway', sans-serif; 
+      }
+      h4{padding-top: 0.5rem;
+        font-family: 'Raleway', sans-serif;}
+      input{
+        width: 70%;
+        border: black 1px solid;
+        padding: 1rem;
+        margin: 0.5rem 1rem;
+        border-radius: 5px;
+        font-family: 'Open Sans', sans-serif;
+        
+      }
+      .btn{
+        width: 80%;
+        padding: 1rem;
+        margin: 0.5rem 1rem;
+        border:none 1px solid;
+        border-radius: 5px;
+        color: white;
+        background-color: hsl(224, 93%, 58%);
+      }
+      header{
+        width: 100%;
+        height: 10%;
+        margin-bottom: 1rem;
+      }
+      #nav-bar{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        padding: 1rem;
+        margin: 0;
+      }
+      #nav-bar .logo img{
+        display: inline-block;
+        width:80%;
+        padding-right: 1rem;
+        margin: 0;
+        
+      }
+      #nav-bar .nav-links {
+        width: 100%;
+        padding-left: 4rem;
+        margin: 0;
+      }
+      #nav-bar .nav-links ul{
+        width:100%
+      }
+      #nav-bar .nav-links ul li{
+        display: inline-block;
+        padding-right: 2rem;
+        list-style: none;
+      }
+      main{
+        width: 100%;
+        height: 80%;
+      }
+      #Features{
+        display: flex;
+        flex-direction: column;
+        width: 91%;
+        height: 25%;
+        margin: 1rem;
+        align-items: center;
+        
+      }
+      #Features .Features-img img{
+        width: 85%;
+        height: 10%;
+        margin: 0 1rem;
+      }
+      #Features .Features-content{
+        text-align: justify;
+        width: 95%;
+        padding: 1rem;
+        height: 15%;
+        margin: 0 1rem;
+      }
+      #Features .Features-content p{
+        width: 90%;
+        text-align: center;
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+      }
+      #Features .Features-content .flex{
+        margin-bottom: 2rem;
+      }
+      #Team{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+        align-items: center;
+        padding-top: 5rem;
+        background: url(../images/bg-curve-mobile.svg)no-repeat center center/cover;
+        margin-bottom: 3rem;
+      }
+      #Team .Team-image img{
+        width: 85%;
+        height: 10%;
+        margin: 0 1rem; 
+      }
+      #Team .Team-content{
+        text-align: justify;
+        width: 95%;
+        padding: 2rem;
+        height: 15%;
+        margin: 0 1rem;
+      }
+      #Team .Team-content p{
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0.5rem;
+        width: 95%;
+        
+      }
+      #Team .Team-content a{
+        color: hsl(170, 45%, 43%);
+        text-decoration: underline;
+        padding: 1rem;
+        text-align: center;
+        margin-left: 5rem;
+      }
+     
+      #Team .Team-content .testimonial{
+        display: flex;
+        flex-direction: column;
+        border: white 1px solid;
+        background-color: white;
+        width: 90%;
+        margin: 1rem;
+      }
+      #Team .Team-content .testimonial img{
+        width: 5%;
+        height: 5%;
+        padding: 0.5rem;
+      }
+      #Team .Team-content .testimonial p{
+        text-align: justify;
+        font-size: 0.9rem;
+        
+      }
+      #Team .Team-content #person{
+        display: flex;
+        width: 100%;
+        
+      }
+      #Team .Team-content #person img{
+        border-radius: 50%;
+        height: 15%;
+        width: 10%;
+      }
+      #person .Kyle{
+       display: flex;
+       flex-direction: column;
+       border: white 1px solid;
+       width: 80%;
+       text-align: left;
+       margin: 0.5rem;
+      }
+      #person div p{
+        font-size: 0.5rem;
+      }
+      #Sign-In{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 15%;
+        text-align: center;
+        padding: 1.5rem;
+        color: white;
+        background-color: hsl(238, 22%, 44%);
+      }
+      #Sign-In .sign-in-info{
+        text-align: justify;
+        width: 92%;
+      }
+      #Sign-In .info {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 1rem;
+      }
+      #Sign-In .sign-in-info p {
+        text-align: center;
+        width: 90%
+      }
+      #contact{
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 15%;
+        text-align: left;
+        padding: 1.5rem;
+        color: white;
+        background-color: hsl(243, 87%, 12%);
+      }
+      #contact .contact-info img{
+        color: white;
+        padding: 1rem 0;
+      }
+      #contact .contact-info .phone{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        border: none 1px solid;
+        padding: 0.5rem 0;
+        padding-left: 1rem;
+      }
+      #contact .contact-info .phone img{
+        width: 5%;
+        padding-right: 1rem;
+      }
+      #contact .contact-info .email{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        border: none 1px solid;
+        padding-left: 1rem;
+       
+      }
+      #contact .contact-info .email img{
+        width: 5%;
+        padding-right: 1rem;
+      }
+      #contact .list{padding: 1rem 1rem;}
+      #contact .list ul li{
+        list-style: none;
+        padding: 1rem 0;
+      }
+      #contact .icons{
+       display: flex;
+       flex-direction: row;
+      }
+      #contact .icons i{
+        padding-right: 1rem;
+      }
+    .attribution {
+       font-size: 11px;
+       text-align: center;
+       height: 30%;
+      padding: 1rem; 
+    }   
+    .attribution a {
+       color: hsl(228, 45%, 44%); }
+    
+    }
